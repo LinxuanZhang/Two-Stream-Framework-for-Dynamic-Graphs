@@ -7,7 +7,7 @@ Below are descriptions of the main folders in this project:
 | Folder Name | Description |
 |-------------|-------------|
 | `config` | YAML configuration files for the models explored in the research paper |
-| `data` | Placeholder for raw data (currently empty). [Download raw data here](https://drive.google.com/file/d/1_vP6kPl_Sg1_I8JlLtk3WtSaHEMJenfU/view?usp=drive_link) |
+| `data` | Placeholder for raw data (currently empty). [Download raw data here](https://drive.google.com/file/d/1VbM76Xyl9dMk6mJmuwVfcmhbEXt_ljTb/view?usp=sharing) |
 | `model` | Placeholder for trained models' checkpoints (currently empty). [Download them here](https://drive.google.com/file/d/1_vP6kPl_Sg1_I8JlLtk3WtSaHEMJenfU/view?usp=drive_link) |
 | `prep_data` | Processed data using the `link_prediction_tasker` object (currently empty). [Download here](https://drive.google.com/file/d/1igNNj-REZ4gxomnfvfiGQqZeObF2NVVM/view?usp=sharing) |
 | `script` | Jupyter notebook script history of training/validating models, sourced from Google Colab |

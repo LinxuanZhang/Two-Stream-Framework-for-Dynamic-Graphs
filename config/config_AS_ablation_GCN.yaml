@@ -1,0 +1,30 @@
+adam_config:
+  adam_beta_1: 0.9
+  adam_beta_2: 0.999
+  adam_epsilon: 1.0e-07
+  adam_learning_rate: 0.01
+
+# model spec
+model_path: models/AS_Ablation_OutDeg_GCN/
+classifier_hidden_size: 20
+ffn_fusion_size: 10
+ffn_hidden_size: 10
+gcn_fusion_size: 20
+spatial_hidden_size: 20
+spatial_input_dim: 128
+temporal_hidden_size: 20
+temporal_input_dim: 200
+
+
+# training spec
+num_epochs: 1000
+patience: 10
+
+major_threshold: null
+train_proportion: 0.7
+dev_proportion: 0.1
+
+data_path: 'data/AS-733/'
+prep_data_path: 'prep_data/AS733_Ablation_OutDeg/'
+
+

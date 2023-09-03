@@ -1,0 +1,30 @@
+# optimizer spec
+adam_config:
+  adam_beta_1: 0.9
+  adam_beta_2: 0.999
+  adam_epsilon: 1.0e-07
+  adam_learning_rate: 0.005
+
+# model spec
+model_path: models/BTC_ALPHA_TwoStream/
+classifier_hidden_size: 16
+ffn_fusion_size: 8
+ffn_hidden_size: 8
+gcn_fusion_size: 16
+spatial_hidden_size: 16
+spatial_input_dim: 128
+temporal_hidden_size: 16
+temporal_input_dim: 100
+
+
+# training spec
+num_epochs: 1000
+patience: 10
+
+# pre-processing spec
+major_threshold: null
+train_proportion: 0.7
+dev_proportion: 0.1
+
+data_path: 'data/BTC-ALPHA/'
+prep_data_path: 'prep_data/BTC_Alpha_neg/'
